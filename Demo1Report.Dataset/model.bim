@@ -504,6 +504,12 @@
             ],
             "expression": "CALCULATE(SUM(Sales[Sales Amount]))",
             "lineageTag": "ed6670b5-68da-4670-b978-b39c2a932447"
+          },
+          {
+            "name": "Thrid branch measure",
+            "expression": "COUNT(Sales[Order Quantity])",
+            "formatString": "0",
+            "lineageTag": "8c717a89-960a-4de0-86b6-2d87ee65f023"
           }
         ],
         "partitions": [
